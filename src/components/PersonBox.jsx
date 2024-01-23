@@ -1,9 +1,11 @@
 import React from 'react'
 import classes from './PersonBox.module.css'
-
-function PersonBox() {
+import person from '../assets/account.png'
+function PersonBox({sex}) {
   return (
-    <div className={classes.wrapper}>PersonBox</div>
+    <div className={classes.wrapper}>
+      <img src={sex} alt="" />
+    </div>
   )
 }
 

@@ -1,6 +1,25 @@
 .wrapper {
-    background-color: white;
-    border: 1px black solid;
+    background-color: #ffa672;
+    /* border: 1px black solid; */
+    color: white;
     border-radius: 5px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.wrapper > img {
+    height: 20px;
+}
+
+.wrapper:hover {
+    background-color: rgb(255, 134, 64)
+}
+
+.wrapper:active {
+    background-color: #ffa672;
 }

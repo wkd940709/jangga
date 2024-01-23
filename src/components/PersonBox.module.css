@@ -1,5 +1,13 @@
 .wrapper {
     width: 33%;
     background-color: white;
-    
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper > img {
+    width: 50%;
 }

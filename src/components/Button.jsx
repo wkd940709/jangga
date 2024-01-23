@@ -1,8 +1,11 @@
 import React from 'react'
+import person from '../assets/account.png'
+import classes from './Button.module.css'
 
-function Button() {
+function Button({ icon, text }) {
+
   return (
-    <div>Button</div>
+    <div className={classes.wrapper}><img src={icon} alt="" /><span>{text}</span></div>
   )
 }
 
